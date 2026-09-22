@@ -141,7 +141,6 @@ a {
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-    overflow: hidden;
 }
 
 /* capa suave sobre el fondo */
@@ -151,8 +150,7 @@ background-position: center center;
     position: absolute;
     inset: 0;
 
-    background: rgba(255, 248, 243, 0.10);
-    z-index: 0;
+    background: rgba(255, 248, 243, 0.08);
 
     pointer-events: none;
 }
@@ -175,12 +173,14 @@ background-position: center center;
     align-items: center;
     gap: 45px;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(216, 208, 199, 0.94),
-            rgba(226, 219, 212, 0.91)
-        );
+    /* Fondo totalmente opaco: evita que cualquier elemento del fondo
+       se vea a través de la tarjeta y parezca contenido duplicado. */
+    background: linear-gradient(
+        135deg,
+        rgb(226, 219, 212) 0%,
+        rgb(239, 232, 225) 55%,
+        rgb(232, 224, 217) 100%
+    );
 
     border: 2px solid var(--plum);
     border-radius: 55px;
@@ -190,6 +190,7 @@ background-position: center center;
         inset 0 0 0 12px rgba(255,255,255,0.08);
 
     overflow: hidden;
+    isolation: isolate;
 }
 
 /* decoración superior derecha */
@@ -724,7 +725,7 @@ background-position: center center;
     .hero-card {
         padding: 55px 40px;
         grid-template-columns: 1fr 1fr;
-        background: rgba(222, 214, 206, 0.94);
+        background: rgb(226, 219, 212);
     }
 
     .hero-intro {
@@ -795,7 +796,7 @@ background-position: center center;
         grid-template-columns: 1fr;
         gap: 42px;
 
-        background: rgba(222,214,206,0.90);
+        background: rgb(226, 219, 212);
     }
 
     .hero-intro {
