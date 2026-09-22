@@ -8,7 +8,7 @@
     <title>Eva Arriagada Farías | Desarrolladora Java Junior</title>
 
     <meta name="description"
-          content="Portafolio profesional de Eva Arriagada Farías, Desarrolladora Java Junior con conocimientos en Java, Spring Boot, APIs REST y bases de datos.">
+        content="Portafolio profesional de Eva Arriagada Farías, Desarrolladora Java Junior con conocimientos en Java, Spring Boot, Java EE, APIs REST, SQL y GitHub.">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,23 +18,21 @@
     <!-- =========================
          NAVEGACIÓN
     ========================== -->
-
     <header class="header">
         <nav class="navbar">
 
             <a href="#inicio" class="logo">
-                Eva Arriagada.
+                Eva Arriagada<span>.</span>
             </a>
 
             <div class="nav-links">
                 <a href="#inicio">Inicio</a>
                 <a href="#sobre-mi">Sobre mí</a>
                 <a href="#proyectos">Proyectos</a>
-                <a href="#stack">Tecnologías</a>
-                <a href="#contacto">Contacto</a>
+                <a href="#tecnologias">Tecnologías</a>
             </div>
 
-            <a href="#contacto" class="btn primary">
+            <a href="#contacto" class="contact-btn">
                 Contáctame
             </a>
 
@@ -47,86 +45,89 @@
         <!-- =========================
              PORTADA
         ========================== -->
-
         <section id="inicio" class="hero">
 
-            <div class="hero-content">
+            <div class="hero-card">
 
-                <div class="hero-text">
+                <!-- IZQUIERDA -->
+                <div class="hero-intro">
 
-                    <p class="location">
-                        SANTIAGO · CHILE
-                    </p>
-
-                    <p class="intro">
+                    <p class="eyebrow">
                         Hola, mi nombre es
                     </p>
 
                     <h1>
-                        Eva Arriagada
-                        <span>Farías</span>
+                        Eva
+                        <span>Arriagada Farías</span>
                     </h1>
 
-                    <h2>
-                        Desarrolladora Java Junior
-                    </h2>
-
-                    <p class="description">
-                        Profesional en formación orientada al desarrollo
-                        de software y aplicaciones web, con conocimientos
-                        en Java, Spring Boot, Java EE, Spring MVC,
-                        Spring Data JPA, Spring Security, APIs REST
-                        y bases de datos SQL.
+                    <p class="location">
+                        Santiago, Chile · Disponible para oportunidades
+                        Trainee / Junior y modalidad remota.
                     </p>
-
-                    <div class="buttons">
-
-                        <a href="#proyectos" class="btn primary">
-                            Ver proyectos
-                        </a>
-
-                        <a href="https://github.com/evaarriagadafarias-tech"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="btn">
-                            GitHub
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/eva-arriagada-b901a0415/"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="btn">
-                            LinkedIn
-                        </a>
-
-                    </div>
 
                 </div>
 
 
-                <div class="hero-image">
+                <!-- CENTRO: FOTO -->
+                <div class="portrait-wrap">
 
-                    <div class="photo-container">
-                        <img src="img/eva-perfil.jpg.png"
-                             alt="Eva Arriagada Farías">
+                    <img
+                        src="img/eva-perfil.jpg.png"
+                        alt="Retrato profesional de Eva Arriagada Farías"
+                        class="portrait"
+                    >
+
+                </div>
+
+
+                <!-- DERECHA -->
+                <div class="hero-profile">
+
+                    <p class="small-title">
+                        PERFIL PROFESIONAL
+                    </p>
+
+                    <h2>
+                        Desarrolladora
+                        <span>Java Junior</span>
+                    </h2>
+
+                    <p>
+                        Profesional en formación orientada al desarrollo
+                        de software y aplicaciones web.
+                    </p>
+
+                    <p class="hero-description">
+                        He desarrollado proyectos utilizando Java,
+                        Spring Boot, Java EE, Spring MVC,
+                        Spring Data JPA, Spring Security,
+                        APIs REST y bases de datos SQL.
+                    </p>
+
+                    <div class="hero-stack">
+                        Java · Spring Boot · APIs REST · SQL
                     </div>
 
-                    <div class="profile-summary">
+                    <div class="social-links">
 
-                        <p class="small-title">
-                            PERFIL PROFESIONAL
-                        </p>
+                        <a
+                            href="https://github.com/evaarriagadafarias-tech"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            GitHub
+                        </a>
 
-                        <h3>
-                            Java · Spring Boot
-                        </h3>
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
 
-                        <p>
-                            Interesada en oportunidades de nivel
-                            Trainee o Junior donde pueda aportar,
-                            continuar aprendiendo y participar
-                            en proyectos tecnológicos.
-                        </p>
+                        <a href="#contacto">
+                            Email
+                        </a>
 
                     </div>
 
@@ -134,46 +135,72 @@
 
             </div>
 
+            <a href="#sobre-mi" class="scroll-down">
+                <span>Descubre mi perfil</span>
+                <span class="arrow">↓</span>
+            </a>
+
         </section>
 
 
         <!-- =========================
              SOBRE MÍ
         ========================== -->
+        <section id="sobre-mi" class="section about">
 
-        <section id="sobre-mi" class="section">
+            <div class="section-number">
+                01
+            </div>
 
-            <p class="section-label">
-                SOBRE MÍ
-            </p>
+            <div class="section-heading">
 
-            <h2 class="section-title">
-                Mi trayectoria
-            </h2>
-
-            <div class="about-card">
-
-                <p>
-                    Mi objetivo profesional es incorporarme a la
-                    industria tecnológica en posiciones de nivel
-                    Trainee o Junior, donde pueda continuar
-                    desarrollando mis conocimientos y participar
-                    en proyectos reales de desarrollo de software.
+                <p class="section-label">
+                    SOBRE MÍ
                 </p>
 
-                <p>
-                    Durante mi formación he desarrollado proyectos
-                    utilizando Java, Spring Boot, Java EE,
-                    bases de datos SQL, APIs REST y herramientas
-                    de control de versiones como Git y GitHub.
-                </p>
+                <h2>
+                    Trayectoria
+                </h2>
 
-                <p>
-                    Me caracterizo por el aprendizaje continuo,
-                    la responsabilidad, la organización y la
-                    capacidad de adaptación a nuevas herramientas
-                    y tecnologías.
-                </p>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-main">
+
+                    <h3>
+                        Construyendo una carrera en tecnología
+                        con aprendizaje continuo, responsabilidad
+                        y dedicación.
+                    </h3>
+
+                </div>
+
+                <div class="about-text">
+
+                    <p>
+                        Mi objetivo profesional es incorporarme a la
+                        industria tecnológica en posiciones de nivel
+                        Trainee o Junior, donde pueda continuar
+                        desarrollando mis conocimientos y participar
+                        en proyectos reales de desarrollo de software.
+                    </p>
+
+                    <p>
+                        Durante mi formación he desarrollado proyectos
+                        utilizando Java, Spring Boot, Java EE,
+                        bases de datos SQL, APIs REST y herramientas
+                        de control de versiones como Git y GitHub.
+                    </p>
+
+                    <p>
+                        Me caracterizo por el aprendizaje continuo,
+                        la responsabilidad, la organización y la
+                        capacidad de adaptación a nuevas herramientas
+                        y tecnologías.
+                    </p>
+
+                </div>
 
             </div>
 
@@ -183,30 +210,39 @@
         <!-- =========================
              PROYECTOS
         ========================== -->
+        <section id="proyectos" class="section projects">
 
-        <section id="proyectos" class="section">
+            <div class="section-number">
+                02
+            </div>
 
-            <p class="section-label">
-                PORTAFOLIO
-            </p>
+            <div class="section-heading">
 
-            <h2 class="section-title">
-                Proyectos destacados
-            </h2>
+                <p class="section-label">
+                    PORTAFOLIO
+                </p>
 
-            <p class="section-description">
-                Una selección de proyectos desarrollados durante
-                mi formación en programación y desarrollo de software.
-            </p>
+                <h2>
+                    Proyectos destacados
+                </h2>
+
+                <p>
+                    Una selección de proyectos desarrollados durante
+                    mi formación en desarrollo de software.
+                </p>
+
+            </div>
 
 
-            <div class="projects-grid">
+            <div class="project-grid">
 
-                <!-- SPRING EDU MANAGER -->
-
+                <!-- PROYECTO 1 -->
                 <article class="project-card">
 
-                    <p class="project-number">01</p>
+                    <div class="project-top">
+                        <span class="project-number">01</span>
+                        <span class="project-type">SPRING BOOT</span>
+                    </div>
 
                     <h3>
                         SpringEduManager
@@ -215,107 +251,137 @@
                     <p>
                         Aplicación web educativa desarrollada con
                         Spring Boot para gestionar estudiantes y cursos,
-                        incorporando persistencia, seguridad y servicios REST.
+                        incorporando arquitectura MVC, persistencia,
+                        seguridad y servicios REST.
                     </p>
 
-                    <div class="technologies">
-                        Java · Spring Boot · JPA · Security · REST
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Spring MVC</span>
+                        <span>Spring Security</span>
+                        <span>REST</span>
+                        <span>H2</span>
                     </div>
 
-                    <a href="https://github.com/evaarriagadafarias-tech/springedumanager"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="project-link">
+                    <a
+                        href="https://github.com/evaarriagadafarias-tech/springedumanager"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link">
                         Ver proyecto →
                     </a>
 
                 </article>
 
 
-                <!-- BIBLIOTECA DIGITAL -->
-
+                <!-- PROYECTO 2 -->
                 <article class="project-card">
 
-                    <p class="project-number">02</p>
+                    <div class="project-top">
+                        <span class="project-number">02</span>
+                        <span class="project-type">JAVA EE</span>
+                    </div>
 
                     <h3>
                         Biblioteca Digital UNTEC
                     </h3>
 
                     <p>
-                        Sistema web para gestionar libros,
-                        usuarios, préstamos y devoluciones,
-                        desarrollado aplicando arquitectura MVC.
+                        Aplicación web dinámica para la gestión
+                        de libros, usuarios y préstamos de una
+                        biblioteca digital mediante Java EE,
+                        JSP, Servlets, JDBC y patrón MVC.
                     </p>
 
-                    <div class="technologies">
-                        Java EE · JSP · Servlets · JDBC · MVC
+                    <div class="tags">
+                        <span>Java EE</span>
+                        <span>JSP</span>
+                        <span>Servlets</span>
+                        <span>JDBC</span>
+                        <span>MVC</span>
+                        <span>JSTL</span>
                     </div>
 
-                    <a href="https://github.com/evaarriagadafarias-tech/biblioteca-digital-untec"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="project-link">
+                    <a
+                        href="https://github.com/evaarriagadafarias-tech/biblioteca-digital-untec"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link">
                         Ver proyecto →
                     </a>
 
                 </article>
 
 
-                <!-- SMARTTASK -->
-
+                <!-- PROYECTO 3 -->
                 <article class="project-card">
 
-                    <p class="project-number">03</p>
+                    <div class="project-top">
+                        <span class="project-number">03</span>
+                        <span class="project-type">JAVA</span>
+                    </div>
 
                     <h3>
                         SmartTask
                     </h3>
 
                     <p>
-                        Aplicación Java para administrar tareas
-                        utilizando programación orientada a objetos,
-                        Maven, pruebas unitarias y cobertura de código.
+                        Aplicación de consola para gestionar tareas,
+                        permitiendo agregar, listar, completar y
+                        eliminar registros mediante programación
+                        orientada a objetos.
                     </p>
 
-                    <div class="technologies">
-                        Java · Maven · JUnit · JaCoCo
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>POO</span>
+                        <span>Maven</span>
+                        <span>JUnit 5</span>
+                        <span>JaCoCo</span>
                     </div>
 
-                    <a href="https://github.com/evaarriagadafarias-tech/SmartTask"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="project-link">
+                    <a
+                        href="https://github.com/evaarriagadafarias-tech/SmartTask"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link">
                         Ver proyecto →
                     </a>
 
                 </article>
 
 
-                <!-- ALKE WALLET -->
-
+                <!-- PROYECTO 4 -->
                 <article class="project-card">
 
-                    <p class="project-number">04</p>
+                    <div class="project-top">
+                        <span class="project-number">04</span>
+                        <span class="project-type">BASE DE DATOS</span>
+                    </div>
 
                     <h3>
                         AlkeWallet
                     </h3>
 
                     <p>
-                        Proyecto de base de datos diseñado para
-                        administrar usuarios, monedas y transacciones
-                        financieras mediante un modelo relacional.
+                        Proyecto de base de datos para una billetera
+                        digital, incluyendo modelado de usuarios,
+                        monedas y transacciones mediante SQL.
                     </p>
 
-                    <div class="technologies">
-                        SQL · MySQL · Modelo relacional
+                    <div class="tags">
+                        <span>SQL</span>
+                        <span>MySQL</span>
+                        <span>DER</span>
+                        <span>Base de datos</span>
                     </div>
 
-                    <a href="https://github.com/evaarriagadafarias-tech/AlkeWallet"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="project-link">
+                    <a
+                        href="https://github.com/evaarriagadafarias-tech/AlkeWallet"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link">
                         Ver proyecto →
                     </a>
 
@@ -329,119 +395,82 @@
         <!-- =========================
              TECNOLOGÍAS
         ========================== -->
+        <section id="tecnologias" class="section technologies">
 
-        <section id="stack" class="section">
+            <div class="section-number">
+                03
+            </div>
 
-            <p class="section-label">
-                TECNOLOGÍAS
-            </p>
+            <div class="section-heading">
 
-            <h2 class="section-title">
-                Stack tecnológico
-            </h2>
+                <p class="section-label">
+                    STACK TECNOLÓGICO
+                </p>
 
-
-            <div class="stack-categories">
-
-                <div class="stack-category">
-
-                    <h3>Backend</h3>
-
-                    <div class="stack-grid">
-                        <span>Java</span>
-                        <span>Spring Boot</span>
-                        <span>Spring MVC</span>
-                        <span>Spring Data JPA</span>
-                        <span>Spring Security</span>
-                        <span>Java EE</span>
-                        <span>JSP</span>
-                        <span>Servlets</span>
-                        <span>REST API</span>
-                    </div>
-
-                </div>
-
-
-                <div class="stack-category">
-
-                    <h3>Bases de datos</h3>
-
-                    <div class="stack-grid">
-                        <span>SQL</span>
-                        <span>MySQL</span>
-                        <span>H2</span>
-                        <span>JDBC</span>
-                    </div>
-
-                </div>
-
-
-                <div class="stack-category">
-
-                    <h3>Herramientas</h3>
-
-                    <div class="stack-grid">
-                        <span>Maven</span>
-                        <span>JUnit</span>
-                        <span>JaCoCo</span>
-                        <span>Git</span>
-                        <span>GitHub</span>
-                    </div>
-
-                </div>
-
-
-                <div class="stack-category">
-
-                    <h3>Web</h3>
-
-                    <div class="stack-grid">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                    </div>
-
-                </div>
+                <h2>
+                    Tecnologías
+                </h2>
 
             </div>
 
-        </section>
+
+            <div class="technology-grid">
+
+                <div class="technology-group">
+
+                    <h3>
+                        Backend
+                    </h3>
+
+                    <p>
+                        Java · Spring Boot · Spring MVC ·
+                        Spring Data JPA · Spring Security ·
+                        Java EE · JSP · Servlets
+                    </p>
+
+                </div>
 
 
-        <!-- =========================
-             PERFIL PROFESIONAL
-        ========================== -->
+                <div class="technology-group">
 
-        <section class="section">
+                    <h3>
+                        Bases de datos
+                    </h3>
 
-            <p class="section-label">
-                PERFIL
-            </p>
+                    <p>
+                        SQL · MySQL · H2 · JDBC ·
+                        Modelado de datos
+                    </p>
 
-            <h2 class="section-title">
-                Lo que puedo aportar
-            </h2>
+                </div>
 
-            <div class="about-card">
 
-                <p>
-                    Cuento con una base técnica en desarrollo Java
-                    y experiencia práctica obtenida mediante proyectos
-                    académicos orientados a resolver necesidades reales.
-                </p>
+                <div class="technology-group">
 
-                <p>
-                    Tengo especial interés en seguir desarrollándome
-                    profesionalmente en áreas relacionadas con
-                    desarrollo backend, aplicaciones Java,
-                    soporte tecnológico y soluciones digitales.
-                </p>
+                    <h3>
+                        Herramientas
+                    </h3>
 
-                <p>
-                    Busco integrarme a un equipo donde pueda aportar
-                    responsabilidad, organización, capacidad de
-                    aprendizaje y disposición para enfrentar
-                    nuevos desafíos tecnológicos.
-                </p>
+                    <p>
+                        Maven · Git · GitHub ·
+                        Visual Studio Code · Eclipse
+                    </p>
+
+                </div>
+
+
+                <div class="technology-group">
+
+                    <h3>
+                        Desarrollo web
+                    </h3>
+
+                    <p>
+                        APIs REST · HTML · CSS ·
+                        Thymeleaf · JSTL
+                    </p>
+
+                </div>
 
             </div>
 
@@ -451,49 +480,46 @@
         <!-- =========================
              CONTACTO
         ========================== -->
+        <section id="contacto" class="section contact">
 
-        <section id="contacto"
-                 class="section contact-section">
+            <div class="section-number">
+                04
+            </div>
 
-            <p class="section-label">
-                CONTACTO
-            </p>
+            <div class="contact-content">
 
-            <h2 class="section-title">
-                Trabajemos juntos
-            </h2>
+                <p class="section-label">
+                    CONTACTO
+                </p>
 
-            <p>
-                Actualmente estoy interesada en oportunidades
-                profesionales de nivel Trainee o Junior dentro
-                del área tecnológica y en modalidad remota.
-            </p>
+                <h2>
+                    ¿Conversamos?
+                </h2>
 
-            <div class="contact-buttons">
+                <p>
+                    Actualmente estoy disponible para oportunidades
+                    profesionales de nivel Trainee o Junior,
+                    especialmente en desarrollo Java, soporte tecnológico
+                    y posiciones con modalidad remota.
+                </p>
 
-                <a href="mailto:evaarriagadafarias@gmail.com"
-                   class="btn primary">
-                    Enviar correo
-                </a>
+                <div class="contact-links">
 
-                <a href="https://www.linkedin.com/in/eva-arriagada-b901a0415/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="btn">
-                    LinkedIn
-                </a>
+                    <a
+                        href="https://github.com/evaarriagadafarias-tech"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub
+                    </a>
 
-                <a href="https://github.com/evaarriagadafarias-tech"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="btn">
-                    GitHub
-                </a>
+                    <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
 
-                <a href="#inicio"
-                   class="btn">
-                    Volver al inicio
-                </a>
+                </div>
 
             </div>
 
@@ -505,15 +531,18 @@
     <!-- =========================
          PIE DE PÁGINA
     ========================== -->
-
-    <footer>
+    <footer class="footer">
 
         <p>
-            © 2026 Eva Arriagada Farías · Portafolio profesional
+            Eva Arriagada Farías
         </p>
 
         <p>
             Desarrolladora Java Junior · Santiago, Chile
+        </p>
+
+        <p>
+            © 2026 Portafolio profesional
         </p>
 
     </footer>
