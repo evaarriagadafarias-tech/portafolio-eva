@@ -136,11 +136,12 @@ a {
         rgba(255, 248, 243, 0.10),
         rgba(255, 248, 243, 0.10)
     ),
-    url("../img/fondo-portafolio.png");
+    url("../img/fondo-portafolio-limpio.png");
 
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
+    overflow: hidden;
 }
 
 /* capa suave sobre el fondo */
@@ -150,12 +151,8 @@ background-position: center center;
     position: absolute;
     inset: 0;
 
-    background: linear-gradient(
-        90deg,
-        rgba(255, 248, 243, 0.05) 0%,
-        rgba(255, 248, 243, 0.10) 45%,
-        rgba(255, 248, 243, 0.18) 100%
-    );
+    background: rgba(255, 248, 243, 0.10);
+    z-index: 0;
 
     pointer-events: none;
 }
@@ -784,7 +781,7 @@ background-position: center center;
                 rgba(248,238,230,0.74),
                 rgba(248,238,230,0.94)
             ),
-            url("../img/eva-perfil.jpg.png");
+            url("../img/fondo-portafolio-limpio.png");
 
         background-size: cover;
         background-position: center top;
