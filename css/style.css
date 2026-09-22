@@ -132,18 +132,17 @@ a {
     padding: 70px 6% 95px;
 
     background:
-        linear-gradient(
-            90deg,
-            rgba(248, 226, 212, 0.20) 0%,
-            rgba(248, 238, 230, 0.48) 38%,
-            rgba(248, 238, 230, 0.96) 74%,
-            var(--cream) 100%
-        ),
-        url("../img/eva-perfil.jpg.png");
+    linear-gradient(
+        90deg,
+        rgba(248, 238, 230, 0.22) 0%,
+        rgba(248, 238, 230, 0.18) 45%,
+        rgba(248, 238, 230, 0.22) 100%
+    ),
+    url("../img/fondo-portafolio.png");
 
-    background-repeat: no-repeat;
-    background-size: 52% auto;
-    background-position: left center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
 }
 
 /* capa suave sobre el fondo */
